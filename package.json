@@ -5,12 +5,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/radishlab/dataviz.git"
+    "url": "https://github.com/RadishLab/dataviz"
+  },
+  "bugs": {
+    "url": "https://github.com/RadishLab/dataviz/issues"
   },
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.7.12",
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.1"
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2"
   }
 }
