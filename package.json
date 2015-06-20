@@ -1,0 +1,9 @@
+{
+  "name": "Dataviz",
+  "description": "A starting point for visualization",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0"
+  }
+}
