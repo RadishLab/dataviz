@@ -1,9 +1,16 @@
 {
   "name": "Dataviz",
   "description": "A starting point for visualization",
+  "author": "Edward Wisniewski <edward@radishlab.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radishlab/dataviz.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.7.12",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1"
   }
 }
