@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 var sass        = require('gulp-sass');
 var sourcemaps  = require('gulp-sourcemaps');
+var fontcustom  = require('gulp-fontcustom')
 var browserSync = require('browser-sync').create();
 
 gulp.task('browser-sync', function() {
@@ -12,6 +13,7 @@ gulp.task('browser-sync', function() {
     });
 });
 
+// Sass compiler
 gulp.task('sass', function() {
   gulp.src('assets/sass/*.sass')
     .pipe(sourcemaps.init())
@@ -25,7 +27,17 @@ gulp.task('sass', function() {
     .pipe(reload({ stream: true }));
 });
 
+// SVG to icon font
+gulp.task('images', function() {
+  gulp.src("assets/svg/*.svg")
+  .pipe(fontcustom({
+    font_name: 'icons'
+  }))
+  .pipe(gulp.dest("build/assets/icons"))
+});
+
 gulp.task('default', [
   'browser-sync',
-  'sass'
+  'sass',
+  'images'
 ]);
