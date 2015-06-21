@@ -5,6 +5,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var csslint      = require('gulp-csslint');
 var jshint       = require('gulp-jshint');
 var concat       = require('gulp-concat');
+var stylish      = require('jshint-stylish');
 var fontcustom   = require('gulp-fontcustom')
 var imagemin     = require('gulp-imagemin');
 var pngquant     = require('imagemin-pngquant');
