@@ -1,8 +1,10 @@
 var gulp        = require('gulp');
 var sass        = require('gulp-sass');
 var sourcemaps  = require('gulp-sourcemaps');
+var autoprefixer= require('gulp-autoprefixer');
 var fontcustom  = require('gulp-fontcustom')
 var browserSync = require('browser-sync').create();
+var reload      = browserSync.reload;
 
 gulp.task('browser-sync', function() {
     browserSync.init({
