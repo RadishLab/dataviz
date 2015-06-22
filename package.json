@@ -1,5 +1,6 @@
 {
-  "name": "Dataviz",
+  "name": "dataviz",
+  "version": "0.0.1",
   "description": "A starting point for visualization",
   "author": "Edward Wisniewski <edward@radishlab.com>",
   "license": "MIT",
