@@ -7,7 +7,7 @@ A starting point that lets you create amazing data visualations and interactives
 ## Initial setup
 
 ```sh
-sudo npm install dataviz
+npm install dataviz
 ```
 
 ## Using gulp
