@@ -9,7 +9,7 @@
     "url": "https://github.com/RadishLab/dataviz"
   },
   "scripts" : {
-    "postinstall" : "init.js"
+    "postinstall" : "node init.js"
   },
   "bugs": {
     "url": "https://github.com/RadishLab/dataviz/issues"
