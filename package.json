@@ -1,6 +1,6 @@
 {
   "name": "dataviz",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A starting point for visualization",
   "author": "Edward Wisniewski <edward@radishlab.com>",
   "license": "MIT",
@@ -8,8 +8,8 @@
     "type": "git",
     "url": "https://github.com/RadishLab/dataviz"
   },
-  "scripts" : {
-    "postinstall" : "node init.js"
+  "scripts": {
+    "postinstall": "node init.js"
   },
   "bugs": {
     "url": "https://github.com/RadishLab/dataviz/issues"
